@@ -7,6 +7,7 @@ import io.netty.channel.socket.SocketChannel;
 import io.netty.channel.socket.nio.NioServerSocketChannel;
 import io.netty.handler.codec.string.StringDecoder;
 import io.netty.handler.codec.string.StringEncoder;
+import io.netty.handler.timeout.IdleStateHandler;
 
 /**
  * 聊天程序服务器端
@@ -43,6 +44,12 @@ public class ChatServer {
                             pipeline.addLast("encoder", new StringEncoder());
                             //往 Pipeline 链中添加一个自定义的业务处理对象
                             pipeline.addLast("handler", new ChatServerHandler());
+                            // 增加心跳事件支持
+                            // 第一个参数: 读空闲 4 秒
+                            // 第二个参数： 写空闲 8 秒
+                            // 第三个参数： 读写空闲 12 秒
+                            pipeline.addLast(new IdleStateHandler(4, 8, 12))
+                                    .addLast(new NettyServerHeartHandler());
                         }
                     })
                     .option(ChannelOption.SO_BACKLOG, 128)
