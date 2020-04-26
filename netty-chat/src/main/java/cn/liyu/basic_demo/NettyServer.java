@@ -5,12 +5,12 @@ import io.netty.channel.*;
 import io.netty.channel.nio.NioEventLoopGroup;
 import io.netty.channel.socket.SocketChannel;
 import io.netty.channel.socket.nio.NioServerSocketChannel;
+import io.netty.handler.timeout.IdleStateHandler;
 
 /**
  * @author liyu
  * @date 2020/4/24 14:23
  * @description netty服务端
- *
  */
 public class NettyServer {
 
@@ -34,11 +34,12 @@ public class NettyServer {
                     //7.设置保持活动链接状态
                     .childOption(ChannelOption.SO_KEEPALIVE, true)
                     //8.创建一个通道初始化对象用来加载当Channel收到事件消息后，如何进行业务处理
-                    //9.向pipeline链中添加自定义的业务处理类handler
                     .childHandler(new ChannelInitializer<SocketChannel>() {
                                       @Override
                                       protected void initChannel(SocketChannel socketChannel) throws Exception {
-                                          socketChannel.pipeline().addLast(new NettyServerHandler());
+                                          socketChannel.pipeline()
+                                                  //9.向pipeline链中添加自定义的业务处理类handler
+                                                  .addLast(new NettyServerHandler());
                                           System.out.println("server is ready");
                                       }
                                   }

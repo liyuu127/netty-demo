@@ -11,11 +11,17 @@ import io.netty.handler.stream.ChunkedWriteHandler;
 /**
  * 通道初始化器
  * 用来加载通道处理器（ChannelHandler)
+ * @author lenovo
  */
 public class WebSocketChannelInitializer extends ChannelInitializer<SocketChannel> {
 
-    // 初始化通道
-    // 在这个方法中去加载对应的ChannelHandler
+    /** 初始化通道在这个方法中去加载对应的ChannelHandler
+     *
+     * @param ch
+     * @throws Exception
+     */
+
+    @Override
     protected void initChannel(SocketChannel ch) throws Exception {
         // 获取管道，将一个一个的ChannelHandler添加到管道中
         ChannelPipeline pipeline = ch.pipeline();
