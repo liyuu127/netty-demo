@@ -1,6 +1,7 @@
 package cn.liyu.chat_demo;
 
 import io.netty.channel.Channel;
+import io.netty.channel.ChannelHandler;
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.SimpleChannelInboundHandler;
 
@@ -14,6 +15,8 @@ import java.util.List;
  * @date 2020/4/24 15:42
  * @description
  */
+//标示一个 ChannelHandler 可以被多个 Channel 安全地共享
+@ChannelHandler.Sharable
 public class ChatServerHandler extends SimpleChannelInboundHandler<String> {
 
     public static List<Channel> channels = new ArrayList<>();

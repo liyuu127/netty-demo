@@ -5,6 +5,8 @@ import io.netty.channel.ChannelFuture;
 import io.netty.channel.nio.NioEventLoopGroup;
 import io.netty.channel.socket.nio.NioServerSocketChannel;
 
+import java.net.InetSocketAddress;
+
 /**
  * @author lenovo
  */
@@ -24,12 +26,14 @@ public class WebSocketNettyServer {
                     .group(mainGrp, subGrp)
                     // 指定Netty通道类型
                     .channel(NioServerSocketChannel.class)
+//                    //指定所使用的 NIO传输 Channel
+                    .localAddress(new InetSocketAddress(9090))
                     // 指定通道初始化器用来加载当Channel收到事件消息后，
                     // 如何进行业务处理
                     .childHandler(new WebSocketChannelInitializer());
 
             // 绑定服务器端口，以同步的方式启动服务器
-            ChannelFuture future = serverBootstrap.bind(9090).sync();
+            ChannelFuture future = serverBootstrap.bind().sync();
             // 等待服务器关闭
             future.channel().closeFuture().sync();
         } catch (InterruptedException e) {
