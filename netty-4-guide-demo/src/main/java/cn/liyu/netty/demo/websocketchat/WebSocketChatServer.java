@@ -11,7 +11,7 @@ import io.netty.channel.socket.nio.NioServerSocketChannel;
  * WebSocket Chat Server.
  * 
  * @since 1.0.0 2020年1月1日
- * @author <a href="https://waylau.com">Way Lau</a>
+ * @author liyu
  */
 public class WebSocketChatServer {
 

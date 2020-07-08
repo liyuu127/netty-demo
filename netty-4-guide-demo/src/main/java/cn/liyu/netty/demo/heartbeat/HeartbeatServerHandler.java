@@ -14,7 +14,7 @@ import io.netty.util.CharsetUtil;
  * HeartbeatServer Handler.
  * 
  * @since 1.0.0 2019年12月19日
- * @author <a href="https://waylau.com">Way Lau</a>
+ * @author liyu
  */
 public class HeartbeatServerHandler extends ChannelInboundHandlerAdapter {
 	

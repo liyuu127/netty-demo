@@ -4,6 +4,6 @@
  * 本例的客户端可以是 Telnet 程序。
  *
  * @since 1.0.0 2019年12月19日
- * @author <a href="https://waylau.com">Way Lau</a>
+ * @author liyu
  */
 package cn.liyu.netty.demo.heartbeat;

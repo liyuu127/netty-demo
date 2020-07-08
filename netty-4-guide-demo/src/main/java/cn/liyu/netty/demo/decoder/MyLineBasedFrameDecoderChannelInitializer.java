@@ -1,6 +1,4 @@
-/**
- * Welcome to https://waylau.com
- */
+
 package cn.liyu.netty.demo.decoder;
 
 import io.netty.channel.ChannelInitializer;
@@ -11,7 +9,7 @@ import io.netty.handler.codec.string.StringDecoder;
  * My LineBasedFrameDecoder ChannelInitializer。
  * 
  * @since 1.0.0 2019年12月12日
- * @author <a href="https://waylau.com">Way Lau</a>
+ * @author liyu
  */
 public class MyLineBasedFrameDecoderChannelInitializer extends ChannelInitializer<SocketChannel> {
 

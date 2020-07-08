@@ -11,7 +11,7 @@ import io.netty.channel.socket.nio.NioServerSocketChannel;
  * Echo Server.
  * 
  * @since 1.0.0 2019年10月2日
- * @author <a href="https://waylau.com">Way Lau</a>
+ * @author liyu
  */
 public class EchoServer {
 

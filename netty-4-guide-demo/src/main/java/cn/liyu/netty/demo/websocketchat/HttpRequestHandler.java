@@ -14,7 +14,7 @@ import java.net.URL;
  * HttpRequest Handler.
  * 
  * @since 1.0.0 2020年1月1日
- * @author <a href="https://waylau.com">Way Lau</a>
+ * @author liyu
  */
 public class HttpRequestHandler extends SimpleChannelInboundHandler<FullHttpRequest> { // （1）
 	private final String wsUri;

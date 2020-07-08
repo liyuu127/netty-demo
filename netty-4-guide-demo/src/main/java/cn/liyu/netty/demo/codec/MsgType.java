@@ -4,7 +4,7 @@ package cn.liyu.netty.demo.codec;
  * Message Type.
  * 
  * @since 1.0.0 2019年12月16日
- * @author <a href="https://waylau.com">Way Lau</a>
+ * @author liyu
  */
 public enum MsgType {
 	EMGW_LOGIN_REQ((byte) 0x00), 

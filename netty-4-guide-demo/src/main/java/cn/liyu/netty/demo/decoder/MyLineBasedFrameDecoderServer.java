@@ -1,6 +1,4 @@
-/**
- * Welcome to https://waylau.com
- */
+
 package cn.liyu.netty.demo.decoder;
 
 import io.netty.bootstrap.ServerBootstrap;
@@ -14,7 +12,7 @@ import io.netty.channel.socket.nio.NioServerSocketChannel;
  * My LineBasedFrameDecoder Server。
  * 
  * @since 1.0.0 2019年12月12日
- * @author <a href="https://waylau.com">Way Lau</a>
+ * @author liyu
  */
 public class MyLineBasedFrameDecoderServer {
 

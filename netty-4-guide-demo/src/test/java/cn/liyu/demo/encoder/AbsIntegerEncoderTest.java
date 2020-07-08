@@ -11,7 +11,7 @@ import static org.junit.jupiter.api.Assertions.*;
  * AbsIntegerEncoder Test.
  * 
  * @since 1.0.0 2020年1月4日
- * @author <a href="https://waylau.com">Way Lau</a>
+ * @author liyu
  */
 class AbsIntegerEncoderTest {
 	

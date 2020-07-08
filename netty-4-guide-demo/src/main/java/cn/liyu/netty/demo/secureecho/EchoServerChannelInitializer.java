@@ -1,6 +1,4 @@
-/**
- * Welcome to https://waylau.com
- */
+
 package cn.liyu.netty.demo.secureecho;
 
 import io.netty.channel.ChannelInitializer;
@@ -13,7 +11,7 @@ import javax.net.ssl.SSLEngine;
  * Echo Server ChannelInitializer.
  * 
  * @since 1.0.0 2019年12月25日
- * @author <a href="https://waylau.com">Way Lau</a>
+ * @author liyu
  */
 public class EchoServerChannelInitializer extends ChannelInitializer<SocketChannel> {
 

@@ -8,7 +8,7 @@ import static io.netty.handler.logging.LogLevel.INFO;
  * Http2ServerHandler Builder.
  * 
  * @since 1.0.0 2019年12月29日
- * @author <a href="https://waylau.com">Way Lau</a>
+ * @author liyu
  */
 public final class Http2ServerHandlerBuilder
         extends AbstractHttp2ConnectionHandlerBuilder<Http2ServerHandler, Http2ServerHandlerBuilder> {

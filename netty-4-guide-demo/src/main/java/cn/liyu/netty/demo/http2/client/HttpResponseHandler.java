@@ -20,7 +20,7 @@ import java.util.concurrent.TimeUnit;
  * Process {@link FullHttpResponse} translated from HTTP/2 frames
  *
  * @since 1.0.0 2019年12月29日
- * @author <a href="https://waylau.com">Way Lau</a>
+ * @author liyu
  */
 public class HttpResponseHandler extends SimpleChannelInboundHandler<FullHttpResponse> {
 

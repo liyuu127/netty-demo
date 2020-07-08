@@ -6,7 +6,7 @@ import java.io.Serializable;
  * POJO: a Serialization Bean
  * 
  * @since 1.0.0 2020年1月2日
- * @author <a href="https://waylau.com">Way Lau</a>
+ * @author liyu
  */
 public class SerializationBean implements Serializable {
 

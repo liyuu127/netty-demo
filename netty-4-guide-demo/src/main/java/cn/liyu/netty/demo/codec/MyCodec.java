@@ -1,6 +1,4 @@
-/**
- * Welcome to https://waylau.com
- */
+
 package cn.liyu.netty.demo.codec;
 
 import io.netty.channel.CombinedChannelDuplexHandler;
@@ -9,7 +7,7 @@ import io.netty.channel.CombinedChannelDuplexHandler;
  * My Codec.
  * 
  * @since 1.0.0 2019年12月17日
- * @author <a href="https://waylau.com">Way Lau</a>
+ * @author liyu
  */
 public class MyCodec extends CombinedChannelDuplexHandler<MyDecoder, MyEncoder> {
 	public MyCodec() {

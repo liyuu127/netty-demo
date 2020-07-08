@@ -1,6 +1,4 @@
-/**
- * Welcome to https://waylau.com
- */
+
 package cn.liyu.netty.demo.buffer;
 
 import io.netty.buffer.ByteBuf;
@@ -10,7 +8,7 @@ import io.netty.buffer.Unpooled;
  * ByteBuf with Direct Buffer Mode Demo.
  * 
  * @since 1.0.0 2019年10月7日
- * @author <a href="https://waylau.com">Way Lau</a>
+ * @author liyu
  */
 public class ByteBufDirectBufferDemo {
 

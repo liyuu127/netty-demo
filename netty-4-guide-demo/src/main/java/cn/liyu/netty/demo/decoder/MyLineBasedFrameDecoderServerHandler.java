@@ -1,6 +1,4 @@
-/**
- * Welcome to https://waylau.com
- */
+
 package cn.liyu.netty.demo.decoder;
 
 import io.netty.channel.ChannelHandlerContext;
@@ -10,7 +8,7 @@ import io.netty.channel.ChannelInboundHandlerAdapter;
  * My LineBasedFrameDecoder ServerHandler。
  * 
  * @since 1.0.0 2019年12月12日
- * @author <a href="https://waylau.com">Way Lau</a>
+ * @author liyu
  */
 public class MyLineBasedFrameDecoderServerHandler extends ChannelInboundHandlerAdapter {
 

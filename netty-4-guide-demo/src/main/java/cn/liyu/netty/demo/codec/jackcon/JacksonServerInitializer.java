@@ -8,7 +8,7 @@ import io.netty.channel.ChannelPipeline;
  * JacksonServer ChannelInitializer.
  * 
  * @since 1.0.0 2020年1月2日
- * @author <a href="https://waylau.com">Way Lau</a>
+ * @author liyu
  */
 public class JacksonServerInitializer extends ChannelInitializer<Channel> {
 

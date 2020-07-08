@@ -15,7 +15,7 @@ import static io.netty.handler.codec.http.HttpResponseStatus.OK;
  * HTTP/2 Server Handler
  * 
  * @since 1.0.0 2019年12月29日
- * @author <a href="https://waylau.com">Way Lau</a>
+ * @author liyu
  */
 public final class Http2ServerHandler extends Http2ConnectionHandler implements Http2FrameListener {
 

@@ -17,7 +17,7 @@ import static io.netty.handler.logging.LogLevel.INFO;
  * Configures the client pipeline to support HTTP/2 frames.
  *
  * @since 1.0.0 2019年12月29日
- * @author <a href="https://waylau.com">Way Lau</a>
+ * @author liyu
  */
 public class Http2ClientInitializer extends ChannelInitializer<SocketChannel> {
     private static final Http2FrameLogger logger = new Http2FrameLogger(INFO, Http2ClientInitializer.class);

@@ -15,7 +15,7 @@ import io.netty.handler.logging.LoggingHandler;
  * My Server.
  * 
  * @since 1.0.0 2019年12月16日
- * @author <a href="https://waylau.com">Way Lau</a>
+ * @author liyu
  */
 public class MyServer {
 

@@ -11,7 +11,7 @@ import java.util.concurrent.TimeUnit;
  * Heartbeat Handler Initializer
  * 
  * @since 1.0.0 2019年12月19日
- * @author <a href="https://waylau.com">Way Lau</a>
+ * @author liyu
  */
 public class HeartbeatHandlerInitializer extends ChannelInitializer<Channel> {
 

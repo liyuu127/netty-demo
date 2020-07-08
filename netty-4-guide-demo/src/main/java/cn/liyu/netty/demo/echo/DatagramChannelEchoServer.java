@@ -1,6 +1,4 @@
-/**
- * Welcome to https://waylau.com
- */
+
 package cn.liyu.netty.demo.echo;
 
 import io.netty.bootstrap.Bootstrap;
@@ -14,7 +12,7 @@ import io.netty.channel.socket.nio.NioDatagramChannel;
  * DatagramChannel Echo Server.
  * 
  * @since 1.0.0 2019年10月22日
- * @author <a href="https://waylau.com">Way Lau</a> 
+ * @author liyu
  */
 public class DatagramChannelEchoServer {
 

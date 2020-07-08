@@ -12,7 +12,7 @@ import io.netty.util.CharsetUtil;
  * HTPP Server Handler.
  * 
  * @since 1.0.0 2019年12月26日
- * @author <a href="https://waylau.com">Way Lau</a>
+ * @author liyu
  */
 public class HttpServerHandler extends SimpleChannelInboundHandler<FullHttpRequest> {
 

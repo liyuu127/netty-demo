@@ -11,7 +11,7 @@ import java.util.concurrent.TimeUnit;
  * Reads the first {@link Http2Settings} object and notifies a {@link ChannelPromise}
  *
  * @since 1.0.0 2019年12月29日
- * @author <a href="https://waylau.com">Way Lau</a>
+ * @author liyu
  */
 public class Http2SettingsHandler extends SimpleChannelInboundHandler<Http2Settings> {
     private final ChannelPromise promise;

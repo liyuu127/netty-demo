@@ -1,6 +1,4 @@
-/**
- * Welcome to https://waylau.com
- */
+
 package cn.liyu.netty.demo.httpserver;
 
 import io.netty.channel.ChannelInitializer;
@@ -12,7 +10,7 @@ import io.netty.handler.codec.http.HttpServerCodec;
  * HTTP Server ChannelInitializer.
  * 
  * @since 1.0.0 2019年12月26日
- * @author <a href="https://waylau.com">Way Lau</a>
+ * @author liyu
  */
 public class HttpServerChannelInitializer extends ChannelInitializer<SocketChannel> {
 

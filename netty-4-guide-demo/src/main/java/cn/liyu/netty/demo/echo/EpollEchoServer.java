@@ -12,7 +12,7 @@ import io.netty.channel.epoll.EpollServerSocketChannel;
  * Only supported on Linux.
  * 
  * @since 1.0.0 2020年1月4日
- * @author <a href="https://waylau.com">Way Lau</a>
+ * @author liyu
  */
 public class EpollEchoServer {
 

@@ -1,6 +1,3 @@
-/**
- * Welcome to https://waylau.com
- */
 package cn.liyu.demo.buffer;
 
 import java.nio.ByteBuffer;
@@ -9,7 +6,6 @@ import java.nio.ByteBuffer;
  * ByteBuffer Demo.
  * 
  * @since 1.0.0 2019年10月7日
- * @author <a href="https://waylau.com">Way Lau</a>
  */
 public class ByteBufferDemo {
 

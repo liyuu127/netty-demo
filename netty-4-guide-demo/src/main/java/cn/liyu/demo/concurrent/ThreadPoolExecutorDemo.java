@@ -1,6 +1,4 @@
-/**
- * Welcome to https://waylau.com
- */
+
 package cn.liyu.demo.concurrent;
 
 import java.util.concurrent.*;
@@ -9,7 +7,7 @@ import java.util.concurrent.*;
  * ThreadPoolExecutor Demo.
  * 
  * @since 1.0.0 2019年11月7日
- * @author <a href="https://waylau.com">Way Lau</a>
+ * @author liyu
  */
 public class ThreadPoolExecutorDemo {
 

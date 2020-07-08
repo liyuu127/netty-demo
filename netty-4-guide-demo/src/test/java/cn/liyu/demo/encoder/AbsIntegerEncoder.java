@@ -1,6 +1,4 @@
-/**
- * Welcome to https://waylau.com
- */
+
 package cn.liyu.demo.encoder;
 
 import io.netty.buffer.ByteBuf;
@@ -13,7 +11,7 @@ import java.util.List;
  * Abs Integer Encoder.
  * 
  * @since 1.0.0 2020年1月4日
- * @author <a href="https://waylau.com">Way Lau</a>
+ * @author liyu
  */
 public class AbsIntegerEncoder extends MessageToMessageEncoder<ByteBuf> {
 	@Override

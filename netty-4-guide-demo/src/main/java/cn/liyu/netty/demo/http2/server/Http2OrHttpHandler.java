@@ -10,7 +10,7 @@ import io.netty.handler.ssl.ApplicationProtocolNegotiationHandler;
  * HTTP/2 or HTTP/1.1 Handler.
  * 
  * @since 1.0.0 2019年12月29日
- * @author <a href="https://waylau.com">Way Lau</a>
+ * @author liyu
  */
 public class Http2OrHttpHandler extends ApplicationProtocolNegotiationHandler {
 

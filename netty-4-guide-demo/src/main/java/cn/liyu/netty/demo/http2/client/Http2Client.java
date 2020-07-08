@@ -20,7 +20,7 @@ import static io.netty.handler.codec.http.HttpVersion.HTTP_1_1;
  * HTTP/2 Client.
  * 
  * @since 1.0.0 2019年12月29日
- * @author <a href="https://waylau.com">Way Lau</a>
+ * @author liyu
  */
 public final class Http2Client {
 

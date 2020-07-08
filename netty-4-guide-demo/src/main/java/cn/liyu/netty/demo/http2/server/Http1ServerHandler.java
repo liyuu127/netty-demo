@@ -24,7 +24,7 @@ import static io.netty.util.internal.ObjectUtil.checkNotNull;
  * HTTP/1.1 Server Handler
  * 
  * @since 1.0.0 2019年12月29日
- * @author <a href="https://waylau.com">Way Lau</a>
+ * @author liyu
  */
 public class Http1ServerHandler extends SimpleChannelInboundHandler<FullHttpRequest> {
     private final String establishApproach;

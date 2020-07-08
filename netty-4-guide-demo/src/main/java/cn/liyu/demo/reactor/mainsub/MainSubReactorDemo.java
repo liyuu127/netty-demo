@@ -6,7 +6,7 @@ import java.io.IOException;
  * Main Sub Reactor Demo
  * 
  * @since 1.0.0 2019年11月14日
- * @author <a href="https://waylau.com">Way Lau</a>
+ * @author liyu
  */
 public class MainSubReactorDemo {
 

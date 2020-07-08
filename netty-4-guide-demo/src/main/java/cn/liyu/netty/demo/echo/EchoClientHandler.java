@@ -9,7 +9,7 @@ import io.netty.util.CharsetUtil;
  * Echo Client Handler.
  * 
  * @since 1.0.0 2019年10月2日
- * @author <a href="https://waylau.com">Way Lau</a>
+ * @author liyu
  */
 public class EchoClientHandler extends ChannelInboundHandlerAdapter {
 	@Override

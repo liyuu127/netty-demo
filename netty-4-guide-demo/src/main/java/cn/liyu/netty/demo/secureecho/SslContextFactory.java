@@ -1,6 +1,4 @@
-/**
- * Welcome to https://waylau.com
- */
+
 package cn.liyu.netty.demo.secureecho;
 
 import javax.net.ssl.KeyManagerFactory;
@@ -15,7 +13,7 @@ import java.security.KeyStore;
  * SslContext Factory.
  * 
  * @since 1.0.0 2019年12月25日
- * @author <a href="https://waylau.com">Way Lau</a>
+ * @author liyu
  */
 public final class SslContextFactory {
 	private static final String PROTOCOL = "TLS";

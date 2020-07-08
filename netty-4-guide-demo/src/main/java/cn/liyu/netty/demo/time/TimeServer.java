@@ -13,7 +13,7 @@ import io.netty.channel.socket.nio.NioServerSocketChannel;
  * Time Server.
  * 
  * @since 1.0.0 2019年10月7日
- * @author <a href="https://waylau.com">Way Lau</a>
+ * @author liyu
  */
 public class TimeServer {
 

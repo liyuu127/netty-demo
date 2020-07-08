@@ -10,7 +10,7 @@ import java.util.Set;
  * SubReactor
  * 
  * @since 1.0.0 2019年11月14日
- * @author <a href="https://waylau.com">Way Lau</a>
+ * @author liyu
  */
 public class SubReactor implements Runnable {
 	private final Selector selector;

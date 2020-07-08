@@ -12,7 +12,7 @@ import java.util.concurrent.Executors;
  * Async Handler
  * 
  * @since 1.0.0 2019年11月14日
- * @author <a href="https://waylau.com">Way Lau</a>
+ * @author liyu
  */
 public class AsyncHandler implements Runnable {
 
