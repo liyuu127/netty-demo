@@ -1,6 +1,4 @@
-/**
- * Welcome to https://waylau.com
- */
+
 package cn.liyu.demo.aio;
 
 import java.io.BufferedReader;
@@ -15,7 +13,6 @@ import java.nio.channels.AsynchronousSocketChannel;
  * Async Echo Client.
  * 
  * @since 1.0.0 2019年9月30日
- * @author <a href="https://waylau.com">Way Lau</a>
  */
 public class AsyncEchoClient {
 

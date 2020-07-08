@@ -1,6 +1,4 @@
-/**
- * Welcome to https://waylau.com
- */
+
 package cn.liyu.demo.aio;
 
 import java.io.IOException;
@@ -16,7 +14,6 @@ import java.util.concurrent.Future;
  * Async Echo Server.
  * 
  * @since 1.0.0 2019年9月29日
- * @author <a href="https://waylau.com">Way Lau</a>
  */
 public class AsyncEchoServer {
 	public static int DEFAULT_PORT = 7;
