@@ -8,6 +8,7 @@
     <artifactId>netty-chat</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>war</packaging>
+    <description>黑马课程学习</description>
 
     <name>netty-chat Maven Webapp</name>
     <properties>
