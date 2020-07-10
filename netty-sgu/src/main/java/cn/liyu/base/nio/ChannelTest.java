@@ -120,10 +120,10 @@ public class ChannelTest {
 
     @Test
     public void nio_file_channel_copy() throws IOException {
-        FileInputStream fileInputStream = new FileInputStream("1.txt");
+        FileInputStream fileInputStream = new FileInputStream("/1.txt");
         FileChannel fileChannel01 = fileInputStream.getChannel();
 
-        FileOutputStream fileOutputStream = new FileOutputStream("2.txt");
+        FileOutputStream fileOutputStream = new FileOutputStream("/2.txt");
         FileChannel fileChannel02 = fileOutputStream.getChannel();
 
         fileChannel01.transferTo(0, fileChannel01.size(), fileChannel02);
