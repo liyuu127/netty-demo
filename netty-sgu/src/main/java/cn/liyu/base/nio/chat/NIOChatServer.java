@@ -33,6 +33,11 @@ public class NIOChatServer {
 
     }
 
+    public static void main(String[] args) throws IOException {
+        NIOChatServer nioChatServer = new NIOChatServer();
+        nioChatServer.listen();
+    }
+
     /**
      * 监听事件
      *
@@ -67,6 +72,7 @@ public class NIOChatServer {
                     //读事件
                     if (selectionKey.isReadable()) {
                         SocketChannel channel = (SocketChannel) selectionKey.channel();
+                        channel.configureBlocking(false);
                         String s = readData(selectionKey);
                         System.out.println(channel.getRemoteAddress() + " say: " + s);
                         //转发给其他的客户端
@@ -87,6 +93,7 @@ public class NIOChatServer {
     private String readData(SelectionKey selectionKey) throws IOException {
         //通过key，反向得到channel
         SocketChannel channel = (SocketChannel) selectionKey.channel();
+        channel.configureBlocking(false);
         //获取到channel关联的buffer
         ByteBuffer byteBuffer = (ByteBuffer) selectionKey.attachment();
 
@@ -101,20 +108,24 @@ public class NIOChatServer {
         ByteBuffer buffer = ByteBuffer.wrap(msg.getBytes());
         keys.forEach(
                 key -> {
-                    SocketChannel channel = (SocketChannel) key.channel();
-                    if (channel != cur) {
-                        try {
-                            channel.write(buffer);
-                        } catch (IOException e) {
-                            e.printStackTrace();
+                    if (key.channel() instanceof SocketChannel) {
+
+
+                        SocketChannel channel = (SocketChannel) key.channel();
+                        if (channel != cur) {
                             try {
-                                System.out.println(channel.getRemoteAddress() + " 离线了");
-                                //取消注册
-                                key.cancel();
-                                //关闭通道
-                                channel.close();
-                            } catch (IOException ex) {
-                                ex.printStackTrace();
+                                channel.write(buffer);
+                            } catch (IOException e) {
+                                e.printStackTrace();
+                                try {
+                                    System.out.println(channel.getRemoteAddress() + " 离线了");
+                                    //取消注册
+                                    key.cancel();
+                                    //关闭通道
+                                    channel.close();
+                                } catch (IOException ex) {
+                                    ex.printStackTrace();
+                                }
                             }
                         }
                     }
