@@ -13,7 +13,7 @@ import java.io.InputStreamReader;
 /**
  * 简单聊天服务器-客户端
  *
- * @author waylau.com
+ * @author liyu
  * @date 2015-2-26
  */
 public class SimpleChatClient {

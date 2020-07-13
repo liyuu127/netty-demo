@@ -10,7 +10,7 @@ import io.netty.util.concurrent.GlobalEventExecutor;
 /**
  * 服务端 channel
  * 
- * @author waylau.com
+ * @author liyu
  * @date 2015-2-16
  */
 public class SimpleChatServerHandler extends SimpleChannelInboundHandler<String> { // (1)

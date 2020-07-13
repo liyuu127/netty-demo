@@ -6,7 +6,7 @@ import io.netty.channel.SimpleChannelInboundHandler;
 /**
  * 客户端 channel
  * 
- * @author waylau.com
+ * @author liyu
  * @date 2015-2-26
  */
 public class SimpleChatClientHandler extends  SimpleChannelInboundHandler<String> {

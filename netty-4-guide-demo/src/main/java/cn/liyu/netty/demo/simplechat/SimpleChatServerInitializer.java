@@ -12,7 +12,7 @@ import io.netty.handler.codec.string.StringEncoder;
 /**
  * 服务端 ChannelInitializer
  * 
- * @author waylau.com
+ * @author liyu
  * @date 2015-2-26
  */
 public class SimpleChatServerInitializer extends
