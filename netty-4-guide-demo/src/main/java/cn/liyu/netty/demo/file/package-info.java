@@ -8,6 +8,6 @@
  * 而后，服务器会将该文件传送给客户端端，客户端将文件内容写入“D:/reciveFile.txt”
  * 
  *
- * @author <a href="http://www.waylau.com">waylau.com</a> 2015年11月6日 
+ * @author liyu 2015年11月6日
  */
 package cn.liyu.netty.demo.file;

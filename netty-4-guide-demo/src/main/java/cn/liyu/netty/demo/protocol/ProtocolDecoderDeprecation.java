@@ -12,7 +12,7 @@ import java.util.List;
 /**
  * 说明：
  *
- * @author <a href="http://www.waylau.com">waylau.com</a> 2015年11月10日
+ * @author liyu 2015年11月10日
  */
 public class ProtocolDecoderDeprecation extends ByteToMessageDecoder {
 

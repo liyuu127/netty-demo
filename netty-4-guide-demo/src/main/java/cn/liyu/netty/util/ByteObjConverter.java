@@ -8,7 +8,7 @@ import java.io.*;
 /**
  * 说明：
  *
- * @author <a href="http://www.waylau.com">waylau.com</a> 2015年11月9日 
+ * @author liyu 2015年11月9日
  */
 public class ByteObjConverter {
 

@@ -3,7 +3,7 @@ package cn.liyu.netty.demo.protocol;
 /**
  * 说明：
  *
- * @author <a href="http://www.waylau.com">waylau.com</a> 2015年11月5日 
+ * @author liyu
  */
 public class ClientTask implements Runnable {
 

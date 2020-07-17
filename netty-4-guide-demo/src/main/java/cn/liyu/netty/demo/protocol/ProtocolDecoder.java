@@ -7,7 +7,7 @@ import io.netty.handler.codec.LengthFieldBasedFrameDecoder;
 /**
  * 说明：
  *
- * @author <a href="http://www.waylau.com">waylau.com</a> 2015年11月11日 
+ * @author liyu 2015年11月11日
  */
 public class ProtocolDecoder extends LengthFieldBasedFrameDecoder {
 	private static final int HEADER_SIZE = 10;

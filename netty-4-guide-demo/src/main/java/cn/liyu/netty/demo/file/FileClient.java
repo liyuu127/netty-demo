@@ -19,7 +19,7 @@ import java.io.InputStreamReader;
 /**
  * 说明：文件客户端
  *
- * @author <a href="http://www.waylau.com">waylau.com</a> 2015年11月6日
+ * @author liyu 2015年11月6日
  */
 public class FileClient {
 

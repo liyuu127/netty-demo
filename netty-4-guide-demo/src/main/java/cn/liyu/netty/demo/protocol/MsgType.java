@@ -6,7 +6,7 @@ package cn.liyu.netty.demo.protocol;
 /**
  * 说明：消息类型
  *
- * @author <a href="http://www.waylau.com">waylau.com</a> 2015年11月5日 
+ * @author liyu
  */
 public enum MsgType {
 	EMGW_LOGIN_REQ((byte) 0x00),

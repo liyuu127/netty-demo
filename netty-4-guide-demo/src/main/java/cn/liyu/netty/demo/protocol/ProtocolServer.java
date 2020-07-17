@@ -15,7 +15,7 @@ import io.netty.channel.socket.nio.NioServerSocketChannel;
 /**
  * 说明：自定义协议服务端
  *
- * @author <a href="http://www.waylau.com">waylau.com</a> 2015年11月5日 
+ * @author liyu
  */
 public class ProtocolServer {
 

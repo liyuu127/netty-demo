@@ -14,7 +14,7 @@ import java.nio.charset.Charset;
 /**
  * 说明：自定义协议客户端
  *
- * @author <a href="http://www.waylau.com">waylau.com</a> 2015年11月5日
+ * @author liyu
  */
 public class ProtocolClient {
 

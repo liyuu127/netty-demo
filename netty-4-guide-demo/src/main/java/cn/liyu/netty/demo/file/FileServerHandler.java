@@ -26,7 +26,7 @@ import java.io.RandomAccessFile;
 /**
  * 说明：文件服务器处理器
  *
- * @author <a href="http://www.waylau.com">waylau.com</a> 2015年11月5日
+ * @author liyu
  */
 public class FileServerHandler extends SimpleChannelInboundHandler<String> {
 

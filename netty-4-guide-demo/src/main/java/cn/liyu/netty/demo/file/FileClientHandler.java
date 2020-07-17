@@ -12,7 +12,7 @@ import java.io.FileOutputStream;
 /**
  * 说明：文件客户端处理器
  *
- * @author <a href="http://www.waylau.com">waylau.com</a> 2015年11月6日
+ * @author liyu 2015年11月6日
  */
 public class FileClientHandler extends SimpleChannelInboundHandler<String> {
 
